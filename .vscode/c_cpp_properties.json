@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "arm",
+            "cStandard": "gnu99",
+            "cppStandard": "gnu++98",
+            "defines": [
+                "USE_STDPERIPH_DRIVER",
+                "STM32F40_41xxx"
+            ],
+            "includePath": [
+                "${workspaceFolder}/**"
+            ]
+        }
+    ],
+    "version": 4
+}
